@@ -1,0 +1,52 @@
+.main-div {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  border: 2px solid darkblue;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  overflow-y: scroll;
+}
+
+div div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.div1 {
+  background-color: aqua;
+}
+.div2 {
+  background-color: coral;
+}
+.div3 {
+  background-color: gold;
+}
+
+/* Relativo a su poosición INICIAL que debía cumplir en el flujo. */
+/* .position-test {
+  position: relative;
+  top: 150px;
+} */
+
+/* Relativo al viewport en caso se especifique TOP, LEFT, RIGHT, BOTTOM */
+/* .position-test {
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+
+/* Relativa al elemento HTML Padre: se usan las propiedades TOP, LEFT, RIGHT BOTTOM */
+/* .position-test {
+  position: absolute;
+  top: 10px;
+  left: 0;
+} */
+
+.position-test {
+  position: sticky;
+  top: 20px;
+}
