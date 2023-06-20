@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios HTML</title>
+  </head>
+  <body>
+    <h1>Formularios HTML</h1>
+
+    <form>
+      <label for="username">Digita tu nombre de usuario:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="USERNAME"
+        required
+      />
+      <br />
+      <br />
+      <label for="email">Digita tu correo:</label>
+      <input type="email" id="email" name="email" placeholder="email" />
+      <br /><br />
+      <label for="password">Digita tu contraseña:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="password"
+      />
+      <br /><br />
+
+      <div>
+        <p>Selecciona tu primer Pokemon:</p>
+        <input type="radio" name="pokemon" id="pokemon1" value="pokemon1" />
+        <label for="pokemon1">Charmander</label>
+        <input type="radio" name="pokemon" id="pokemon2" value="pokemon2" />
+        <label for="pokemon2">Bulbasaur</label>
+        <input type="radio" name="pokemon" id="pokemon3" value="pokemon3" />
+        <label for="pokemon3">Squirtle</label>
+      </div>
+
+      <br /><br />
+      <div>
+        <label for="comida">Selecciona tu comida preferida:</label>
+        <select name="comida" id="comida">
+          <option value="sushi">Sushi</option>
+          <option value="pan">Pan</option>
+          <option value="carne">Carne</option>
+          <option value="arroz_con_mango">Arroz con Mango</option>
+        </select>
+      </div>
+
+      <!-- <label for="comments">Escribe tus comentarios:</label> -->
+      <br />
+      <textarea
+        name="comments"
+        id="comments"
+        cols="30"
+        rows="10"
+        placeholder="Escribe tus comentarios...."
+      ></textarea>
+
+      <button type="submit">Enviar Formulario</button>
+    </form>
+
+    <div></div>
+  </body>
+</html>
+
+8:43 PM CONTINUAMOS
