@@ -1,0 +1,54 @@
+p {
+  color: rgb(1, 26, 35);
+  /* background-color: chartreuse; */
+}
+
+/* h1 {
+  color: darkblue;
+} */
+
+.h1-home {
+  color: crimson;
+}
+
+.h1-contacto {
+  color: rgb(6, 92, 16);
+}
+
+.h1-nosotros {
+  color: rgb(70, 20, 220);
+}
+
+.div-contacto {
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: darkgoldenrod; */
+  border: green 5px solid;
+  padding: 50px;
+}
+
+.p-margin {
+  margin: 20px;
+  border: rgb(0, 4, 128) 2px solid;
+  padding: 20px;
+}
+
+.h1-inline {
+  background-color: black;
+  color: white;
+  display: inline;
+  height: 100px;
+  width: 200px;
+}
+
+.span-contacto {
+  background-color: blue;
+  display: block;
+}
+.span-inline-block {
+  background-color: brown;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  position: ;
+}
